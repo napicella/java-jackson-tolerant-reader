@@ -10,8 +10,8 @@ import static org.hamcrest.core.Is.is;
 
 /**
  * Robustness principle
- * TOLERANT READER : BE TOLERANT IN WHAT YOU READ
- * TOLERANT WRITER : BE CONSERVATIVE IN THAT YOU WRITE
+ * TOLERANT READER : BE TOLERANT WHEN YOU READ
+ * TOLERANT WRITER : BE CONSERVATIVE WHEN YOU WRITE
  */
 public class JsonTest {
 
@@ -56,5 +56,4 @@ public class JsonTest {
 
         assertThat(deserializedUser.getName(), is("Michael"));
     }
-
 }
